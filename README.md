@@ -96,6 +96,3 @@ MIT License. Feel free to use and adapt the code for academic purposes.
 ---
 
 Enjoy exploring epidemic dynamics on networks!
-
-\- ComplexNets Lab
-
