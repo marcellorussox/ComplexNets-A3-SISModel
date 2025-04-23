@@ -32,14 +32,12 @@ The system is evolved until a stationary regime is reached, from which $ \langle
 
 ```
 ComplexNets-A3-SISModel/
-├── ComplexNets-A3-SISModel.ipynb  # Main simulation notebook
-├── data/
+├── nets/
 │   ├── ER_k4.net                  # Erdős-Rényi network with <k>=4
 │   ├── ER_k6.net                  # Erdős-Rényi network with <k>=6
 │   ├── BA_k4.net                  # Barabási-Albert network with <k>=4
-│   ├── BA_k6.net                  # Barabási-Albert network with <k>=6
-│   └── networks_metadata.txt      # Metadata and network parameters
-└── results/                       # Output plots and numerical results
+│   └── BA_k6.net                  # Barabási-Albert network with <k>=6
+└── ComplexNets-A3-SISModel.ipynb  # Main simulation notebook
 ```
 
 ---
@@ -86,6 +84,8 @@ The accompanying report includes:
 ## :trophy: For Maximum Grade
 
 > Comparison of Monte Carlo simulations with MMCA theoretical predictions is included.
+
+![SIS Comparison Plot](sis_comparison.png)  
 
 ---
 
