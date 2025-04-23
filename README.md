@@ -10,7 +10,7 @@ The simulations are implemented in a single Jupyter Notebook: `ComplexNets-A3-SI
 
 ## :microscope: Objective
 
-To investigate the behavior of the average fraction of infected individuals $\langle \rho \rangle$ in the stationary state, as a function of the infection probability $ \lambda $, across different types of networks and recovery probabilities $ \mu $.
+To investigate the behavior of the average fraction of infected individuals $`\langle \rho \rangle`$ in the stationary state, as a function of the infection probability $` \lambda `$, across different types of networks and recovery probabilities $` \mu `$.
 
 ---
 
@@ -21,10 +21,10 @@ The SIS model considers each node as an individual that can be in one of two sta
 - **Infected (I):** Currently infected and can transmit the infection.
 
 At each time step:
-1. **Infected nodes** recover with probability $ \mu $.
-2. **Susceptible nodes** can become infected by their infected neighbors with probability $ \beta $ (i.e., $ \lambda $).
+1. **Infected nodes** recover with probability $` \mu `$.
+2. **Susceptible nodes** can become infected by their infected neighbors with probability $` \beta `$ (i.e., $` \lambda `$).
 
-The system is evolved until a stationary regime is reached, from which $ \langle \rho \rangle $ is computed.
+The system is evolved until a stationary regime is reached, from which $` \langle \rho \rangle `$ is computed.
 
 ---
 
@@ -44,21 +44,21 @@ ComplexNets-A3-SISModel/
 
 ## :gear: Simulation Parameters
 
-| Parameter       | Description                                 | Value(s)                                  |
-|-----------------|---------------------------------------------|-------------------------------------------|
-| $` \lambda `$   | Infection probability                       | From 0 to 0.3 ($` \Delta \lambda = 0.01 `$) |
-| $` \mu `$       | Recovery probability                        | 0.2 and 0.4                               |
-| $` N `$         | Number of nodes per network                 | 1000                                      |
-| $` \rho(0) `$   | Initial infected fraction                   | 0.2                                       |
-| $` T_{max} `$   | Total time steps per simulation             | 1000                                      |
-| $` T_{trans} `$ | Transient period before stationary state    | 900                                       |
-| $` N_{rep} `$   | Number of independent repetitions           | 100 (or 50 if needed)                     |
+| Parameter       | Description                              | Value(s)                                    |
+|-----------------|------------------------------------------|---------------------------------------------|
+| $` \lambda `$   | Infection probability                    | From 0 to 0.3 ($` \Delta \lambda = 0.01 `$) |
+| $` \mu `$       | Recovery probability                     | 0.2 and 0.4                                 |
+| $` N `$         | Number of nodes per network              | 1000                                        |
+| $` \rho(0) `$   | Initial infected fraction                | 0.2                                         |
+| $` T_{max} `$   | Total time steps per simulation          | 1000                                        |
+| $` T_{trans} `$ | Transient period before stationary state | 900                                         |
+| $` N_{rep} `$   | Number of independent repetitions        | 100 (or 50 if needed)                       |
 
 ---
 
 ## :bar_chart: Outputs
 
-- Epidemic diagrams $ \langle \rho \rangle (\lambda) $ for each network and $ \mu $.
+- Epidemic diagrams $` \langle \rho \rangle (\lambda) `$ for each network and $` \mu `$.
 - Comparative plots showing the different epidemic thresholds and behaviors between ER and BA networks.
 - Optional comparison with theoretical predictions via the **Microscopic Markov Chain Approach (MMCA)**.
 
@@ -76,7 +76,7 @@ The accompanying report includes:
 ## :bookmark_tabs: Key Notes
 
 - The code is optimized for educational clarity, not performance. For large-scale simulations, consider reimplementing in a compiled language.
-- Ensure you visualize $ \rho(t) $ vs time to confirm that stationarity is achieved before calculating $ \langle \rho \rangle $.
+- Ensure you visualize $` \rho(t) `$ vs time to confirm that stationarity is achieved before calculating $` \langle \rho \rangle `$.
 - The network files are in `.net` format compatible with NetworkX parsing utilities.
 
 ---
