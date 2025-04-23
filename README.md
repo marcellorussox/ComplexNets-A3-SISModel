@@ -4,7 +4,7 @@
 
 This repository contains a full pipeline for simulating and analyzing the dynamics of an epidemic spread using the **Susceptible-Infected-Susceptible (SIS)** model on complex networks, via Monte Carlo simulations. The model assumes discrete-time steps and network-based propagation of infection.
 
-The simulations are implemented in a single Jupyter Notebook: `ComplexNets-A3-SISModel.ipynb`, and utilize real network data stored in the `data/` directory.
+The simulations are implemented in a single Jupyter Notebook: `ComplexNets-A3-SISModel.ipynb`, and utilize real networks data created and stored in the `nets/` directory.
 
 ---
 
