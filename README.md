@@ -44,15 +44,15 @@ ComplexNets-A3-SISModel/
 
 ## :gear: Simulation Parameters
 
-| Parameter      | Description                                 | Value(s)                                  |
-|----------------|---------------------------------------------|-------------------------------------------|
-| $ \lambda $    | Infection probability                       | From 0 to 0.3 ($ \Delta \lambda = 0.01 $) |
-| $ \mu $        | Recovery probability                        | 0.2 and 0.4                               |
-| $ N $          | Number of nodes per network                 | 1000                                      |
-| $ \rho(0) $    | Initial infected fraction                   | 0.2                                       |
-| $ T_{max} $    | Total time steps per simulation             | 1000                                      |
-| $ T_{trans} $  | Transient period before stationary state    | 900                                       |
-| $ N_{rep} $    | Number of independent repetitions           | 100 (or 50 if needed)                     |
+| Parameter       | Description                                 | Value(s)                                  |
+|-----------------|---------------------------------------------|-------------------------------------------|
+| $` \lambda `$   | Infection probability                       | From 0 to 0.3 ($` \Delta \lambda = 0.01 `$) |
+| $` \mu `$       | Recovery probability                        | 0.2 and 0.4                               |
+| $` N `$         | Number of nodes per network                 | 1000                                      |
+| $` \rho(0) `$   | Initial infected fraction                   | 0.2                                       |
+| $` T_{max} `$   | Total time steps per simulation             | 1000                                      |
+| $` T_{trans} `$ | Transient period before stationary state    | 900                                       |
+| $` N_{rep} `$   | Number of independent repetitions           | 100 (or 50 if needed)                     |
 
 ---
 
